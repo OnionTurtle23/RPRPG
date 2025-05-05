@@ -1,0 +1,122 @@
+[
+    {
+        "id": "07557745-a432-49ff-860e-1940f6069559",
+        "wname": "Basic Sword",
+        "wtype": "Normal",
+        "slots": 3,
+        "slot_link": 1,
+        "damage": 20,
+        "is_unique": "Kris",
+        "is_avail": true
+    },
+    {
+        "id": "f1db94a4-05e4-4436-8878-a9663186f3cf",
+        "wname": "Basic Staff",
+        "wtype": "Normal",
+        "slots": 4,
+        "slot_link": 2,
+        "damage": 10,
+        "is_unique": "Abigail",
+        "is_avail": false
+    },
+    {
+        "id": "7819534d-5dec-4ea6-bb51-7ba13ebfce2a",
+        "wname": "Basic Pistol",
+        "wtype": "Normal",
+        "slots": 2,
+        "slot_link": 1,
+        "damage": 25,
+        "is_unique": "Monte",
+        "is_avail": false
+    },
+    {
+        "id": "1a7af9b3-37ac-4d67-92f7-177e095cf99b",
+        "wname": "Fiery Scimitar",
+        "wtype": "Superheated",
+        "slots": 4,
+        "slot_link": 2,
+        "damage": 35,
+        "is_unique": "Kris",
+        "is_avail": false
+    },
+    {
+        "id": "fc06b48a-5b03-4c4a-b9d4-a497049a2984",
+        "wname": "Rain Stick",
+        "wtype": "Precipitative",
+        "slots": 5,
+        "slot_link": 2,
+        "damage": 25,
+        "is_unique": "Abigail",
+        "is_avail": false
+    },
+    {
+        "id": "4d211aa1-4735-4288-a36f-f2888d74df5a",
+        "wname": "Electro Rifle",
+        "wtype": "Discharging",
+        "slots": 3,
+        "slot_link": 1,
+        "damage": 40,
+        "is_unique": "Monte",
+        "is_avail": false
+    },
+    {
+        "id": "a2971294-4e6b-4ae3-9e32-c1dfd06b59ef",
+        "wname": "Masamune",
+        "wtype": "Frostbitten",
+        "slots": 5,
+        "slot_link": 2,
+        "damage": 60,
+        "is_unique": "Kris",
+        "is_avail": false
+    },
+    {
+        "id": "8965390c-9f55-4a72-a05f-a933b0a83496",
+        "wname": "Hurricane Staff",
+        "wtype": "Jet Turbined",
+        "slots": 7,
+        "slot_link": 3,
+        "damage": 45,
+        "is_unique": "Abigail",
+        "is_avail": false
+    },
+    {
+        "id": "636acb49-ac30-46cf-8534-e3b987840ed5",
+        "wname": "Heavy Shotgun",
+        "wtype": "Seismic",
+        "slots": 5,
+        "slot_link": 2,
+        "damage": 70,
+        "is_unique": "Monte",
+        "is_avail": false
+    },
+    {
+        "id": "ba84c5be-b9c9-4203-9967-e1019843ecb6",
+        "wname": "Archangel Blade",
+        "wtype": "Ancient",
+        "slots": 8,
+        "slot_link": 4,
+        "damage": 100,
+        "is_unique": "Kris",
+        "is_avail": false
+    },
+    {
+        "id": "2e41c917-38c9-4e0a-af71-4d0c4cb8ad7b",
+        "wname": "Staff of the Prophets",
+        "wtype": "Ancient",
+        "slots": 8,
+        "slot_link": 4,
+        "damage": 100,
+        "is_unique": "Abigail",
+        "is_avail": false
+    },
+    {
+        "id": "2f1b7c10-4b56-409d-a033-edb51a8db328",
+        "wname": "Judgement Day",
+        "wtype": "Ancient",
+        "slots": 8,
+        "slot_link": 4,
+        "damage": 100,
+        "is_unique": "Monte",
+        "is_avail": false
+    }
+]
