@@ -1,0 +1,112 @@
+[
+    {
+        "id": "d42ac669-63d2-4476-9879-3fe948a0cff8",
+        "aname": "Wooden Shield",
+        "atype": "Normal",
+        "slots": 2,
+        "slot_link": 1,
+        "physmit": 20,
+        "techmit": 10,
+        "is_avail": true
+    },
+    {
+        "id": "fed5f550-f707-4df7-a118-957760536d6d",
+        "aname": "Basic Leather",
+        "atype": "Normal",
+        "slots": 3,
+        "slot_link": 1,
+        "physmit": 10,
+        "techmit": 15,
+        "is_avail": false
+    },
+    {
+        "id": "00ed3d3b-80e4-4d95-9d83-e8e83c16dd60",
+        "aname": "Basic Buckler",
+        "atype": "Normal",
+        "slots": 2,
+        "slot_link": 1,
+        "physmit": 20,
+        "techmit": 20,
+        "is_avail": false
+    },
+    {
+        "id": "bd36c0f8-b57b-4621-a81b-b0c3e6246dfb",
+        "aname": "Racing Suit",
+        "atype": "Flame-Retardant",
+        "slots": 4,
+        "slot_link": 2,
+        "physmit": 30,
+        "techmit": 30,
+        "is_avail": false
+    },
+    {
+        "id": "9af2bedc-3c05-4372-906e-c07f1893004f",
+        "aname": "Wet Suit",
+        "atype": "Water-Tight",
+        "slots": 5,
+        "slot_link": 2,
+        "physmit": 30,
+        "techmit": 30,
+        "is_avail": false
+    },
+    {
+        "id": "3550fb43-d736-42ce-8686-37051a80dd92",
+        "aname": "Rubber Suit",
+        "atype": "Grounded",
+        "slots": 3,
+        "slot_link": 1,
+        "physmit": 30,
+        "techmit": 30,
+        "is_avail": false
+    },
+    {
+        "id": "ea762f8b-4d9b-4971-8523-0d92ccc7640d",
+        "aname": "Snow Suit",
+        "atype": "Fur-Lined",
+        "slots": 6,
+        "slot_link": 3,
+        "physmit": 35,
+        "techmit": 40,
+        "is_avail": false
+    },
+    {
+        "id": "c5018bb5-5b2e-4f56-854f-20b8dbac054b",
+        "aname": "Wind-Breaker",
+        "atype": "Wind Resistive",
+        "slots": 7,
+        "slot_link": 3,
+        "physmit": 35,
+        "techmit": 40,
+        "is_avail": false
+    },
+    {
+        "id": "b745db0b-a058-4b8a-aa64-67ddc2e63734",
+        "aname": "Divine Breastplate",
+        "atype": "Ancient",
+        "slots": 8,
+        "slot_link": 4,
+        "physmit": 100,
+        "techmit": 100,
+        "is_avail": false
+    },
+    {
+        "id": "2071e389-ca20-41ce-8a98-8e12ef2d4369",
+        "aname": "Overcomer's Diadem",
+        "atype": "Ancient",
+        "slots": 8,
+        "slot_link": 4,
+        "physmit": 100,
+        "techmit": 100,
+        "is_avail": false
+    },
+    {
+        "id": "c2229835-1fa5-4541-b999-f1585e88f3bf",
+        "aname": "Shield of Hope",
+        "atype": "Ancient",
+        "slots": 8,
+        "slot_link": 4,
+        "physmit": 100,
+        "techmit": 100,
+        "is_avail": false
+    }
+]

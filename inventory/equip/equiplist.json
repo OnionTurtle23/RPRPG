@@ -1,0 +1,12 @@
+[
+    {
+        "id": "500eab77-fd02-4e95-9f34-27688d88a976",
+        "wname": "Basic Sword",
+        "wtype": "Normal",
+        "slots": 3,
+        "slot_link": 1,
+        "damage": 20,
+        "is_unique": "Kris",
+        "is_avail": true
+    }
+]

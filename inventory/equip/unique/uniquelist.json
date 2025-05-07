@@ -1,0 +1,92 @@
+[
+    {
+        "id": "37f3bdaf-c003-47d7-8e1b-5c23ebef1f7a",
+        "uname": "Brainwave Stim",
+        "utype": "Headband",
+        "boon": "Mind-Focusing",
+        "mastery": 1,
+        "mastered_boon": "ATB Increae",
+        "mboon_avail": false,
+        "is_avail": false
+    },
+    {
+        "id": "ed138824-a6b9-400a-9dca-d2e51848a045",
+        "uname": "Compact Cell",
+        "utype": "Superconductor",
+        "boon": "Energy Producing",
+        "mastery": 1,
+        "mastered_boon": "Techs Iterate Twice",
+        "mboon_avail": false,
+        "is_avail": false
+    },
+    {
+        "id": "2bf43e02-cbd3-42f0-ae5d-4e0da1c677e1",
+        "uname": "Robotic Suit",
+        "utype": "Bionic",
+        "boon": "Strength Enhancing",
+        "mastery": 1,
+        "mastered_boon": "Attacks Iterate Twice",
+        "mboon_avail": false,
+        "is_avail": true
+    },
+    {
+        "id": "a09cf1f1-46b1-42fc-894f-4aaa0be6c6e9",
+        "uname": "Tubeless Nanobot Pump",
+        "utype": "Nanotech",
+        "boon": "Health Boosting",
+        "mastery": 1,
+        "mastered_boon": "All Stat Small Boost",
+        "mboon_avail": false,
+        "is_avail": false
+    },
+    {
+        "id": "d4145f66-7ea5-4145-80f2-badcb6a520bf",
+        "uname": "Holtzman Shield",
+        "utype": "Shielding",
+        "boon": "Defensive",
+        "mastery": 1,
+        "mastered_boon": "Gain Regenerating Overshield",
+        "mboon_avail": false,
+        "is_avail": false
+    },
+    {
+        "id": "48f29370-4073-4f72-be1a-12746f72defe",
+        "uname": "Military Exosuit",
+        "utype": "Mind-Body Sync",
+        "boon": "Speed Altering",
+        "mastery": 1,
+        "mastered_boon": "All Stat Med. Boost",
+        "mboon_avail": false,
+        "is_avail": false
+    },
+    {
+        "id": "d202263a-8ba7-47a1-8d9d-3569a23b0bd4",
+        "uname": "Mysterious Scabbard",
+        "utype": "Ancient",
+        "boon": "Holy",
+        "mastery": 1,
+        "mastered_boon": "L. Stat Boost & Ailment Resistant",
+        "mboon_avail": false,
+        "is_avail": false
+    },
+    {
+        "id": "bfd170b1-bbe8-4902-ab22-ade721b90ca3",
+        "uname": "Mysterious Bracelet",
+        "utype": "Ancient",
+        "boon": "Holy",
+        "mastery": 1,
+        "mastered_boon": "L. Stat Boost & Ailment Resistant",
+        "mboon_avail": false,
+        "is_avail": false
+    },
+    {
+        "id": "c218d5d6-5642-4426-a9eb-3a5ec40f8aaf",
+        "uname": "Mysterious Gunbelt",
+        "utype": "Ancient",
+        "boon": "Holy",
+        "mastery": 1,
+        "mastered_boon": "L. Stat Boost & Ailment Resistant",
+        "mboon_avail": false,
+        "is_avail": false
+    }
+]

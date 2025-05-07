@@ -25,9 +25,9 @@ class PlayableCharacter:
 kSprite = pygame.image.load("kris.png")
 kris = PlayableCharacter("Kris", kSprite, 100, 20, 10, 8, 9, 7, 8, 8, 8)
 
-class Equipment:
+class Equipment(Weapon, Armor, Unique):
 
-    def __init__(self, Weapon, Armor, Unique):
+    def __init__(self):
         pass
 
 
