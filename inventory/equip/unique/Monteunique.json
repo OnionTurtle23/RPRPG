@@ -1,0 +1,12 @@
+[
+    {
+        "id": "6c345e65-cbd6-42c1-a4ae-ba589f0847c1",
+        "uname": "Brainwave Stim",
+        "utype": "Headband",
+        "boon": "Mind-Focusing",
+        "mastery": 1,
+        "mastered_boon": "ATB Increae",
+        "mboon_avail": false,
+        "is_avail": true
+    }
+]

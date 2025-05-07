@@ -1,0 +1,40 @@
+[
+    [
+        [
+            {
+                "id": "ff0975f4-0049-4ea3-98f4-269a5ca81c3d",
+                "wname": "Fiery Scimitar",
+                "wtype": "Superheated",
+                "slots": 4,
+                "slot_link": 2,
+                "damage": 35,
+                "is_unique": "Kris",
+                "is_avail": true
+            }
+        ],
+        [
+            {
+                "id": "934fe42e-34fa-4f6b-b46a-48358bceeaae",
+                "aname": "Basic Buckler",
+                "atype": "Normal",
+                "slots": 2,
+                "slot_link": 1,
+                "physmit": 20,
+                "techmit": 20,
+                "is_avail": true
+            }
+        ],
+        [
+            {
+                "id": "278defe1-bf3a-4452-8b9c-00ebe911cb4e",
+                "uname": "Compact Cell",
+                "utype": "Superconductor",
+                "boon": "Energy Producing",
+                "mastery": 1,
+                "mastered_boon": "Techs Iterate Twice",
+                "mboon_avail": false,
+                "is_avail": true
+            }
+        ]
+    ]
+]

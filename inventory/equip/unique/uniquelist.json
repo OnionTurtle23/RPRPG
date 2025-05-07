@@ -7,7 +7,7 @@
         "mastery": 1,
         "mastered_boon": "ATB Increae",
         "mboon_avail": false,
-        "is_avail": false
+        "is_avail": true
     },
     {
         "id": "ed138824-a6b9-400a-9dca-d2e51848a045",
@@ -17,7 +17,7 @@
         "mastery": 1,
         "mastered_boon": "Techs Iterate Twice",
         "mboon_avail": false,
-        "is_avail": false
+        "is_avail": true
     },
     {
         "id": "2bf43e02-cbd3-42f0-ae5d-4e0da1c677e1",

@@ -1,0 +1,12 @@
+[
+    {
+        "id": "7d44515e-08e1-4cdd-a7d8-aa4b0387cd3b",
+        "wname": "Basic Pistol",
+        "wtype": "Normal",
+        "slots": 2,
+        "slot_link": 1,
+        "damage": 25,
+        "is_unique": "Monte",
+        "is_avail": true
+    }
+]

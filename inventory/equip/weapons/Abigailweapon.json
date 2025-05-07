@@ -1,0 +1,12 @@
+[
+    {
+        "id": "d3597963-6965-42b3-addd-400fc220d111",
+        "wname": "Basic Staff",
+        "wtype": "Normal",
+        "slots": 4,
+        "slot_link": 2,
+        "damage": 10,
+        "is_unique": "Abigail",
+        "is_avail": true
+    }
+]

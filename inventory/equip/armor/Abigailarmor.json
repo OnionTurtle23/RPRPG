@@ -1,0 +1,12 @@
+[
+    {
+        "id": "1c5e8853-9dc1-46f0-9edc-88f2c0a0d42d",
+        "aname": "Basic Leather",
+        "atype": "Normal",
+        "slots": 3,
+        "slot_link": 1,
+        "physmit": 10,
+        "techmit": 15,
+        "is_avail": true
+    }
+]

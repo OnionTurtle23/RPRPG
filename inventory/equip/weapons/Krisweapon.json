@@ -1,0 +1,12 @@
+[
+    {
+        "id": "34a2e26c-21a6-44a3-b8e8-f981a3df911a",
+        "wname": "Fiery Scimitar",
+        "wtype": "Superheated",
+        "slots": 4,
+        "slot_link": 2,
+        "damage": 35,
+        "is_unique": "Kris",
+        "is_avail": true
+    }
+]

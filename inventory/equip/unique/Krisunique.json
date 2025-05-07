@@ -1,0 +1,12 @@
+[
+    {
+        "id": "1b27065f-d26f-4c0d-8f55-0e2a70dc6e43",
+        "uname": "Compact Cell",
+        "utype": "Superconductor",
+        "boon": "Energy Producing",
+        "mastery": 1,
+        "mastered_boon": "Techs Iterate Twice",
+        "mboon_avail": false,
+        "is_avail": true
+    }
+]

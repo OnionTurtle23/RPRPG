@@ -1,6 +1,7 @@
 import json
 import os
 from uuid import uuid4
+from pathlib import Path
 
 class Unique:
     def __init__(self, uname, utype, boon, mastery, mastered_boon, mboon_avail=False, is_avail=False):
@@ -113,6 +114,31 @@ class UniqueManager:
         for unique in self.uniques:
             return [unique for unique in self.uniques if hasattr(unique, key) and getattr(unique, key) == value and unique.is_avail]
 
+
+
+    def uEquip(self, unique_name, equip_on):
+        for unique in self.inventory:
+            if unique.uname.lower() == unique_name.lower():
+                print(f"Equipped {unique.uname}")
+                if equip_on == "Kris":
+                    kFilepath = "inventory/equip/unique/Krisunique.json"
+                    self.kFilename = kFilepath
+                    with open(self.kFilename, "w") as file:
+                        json.dump([unique.to_dict()], file, indent=4)
+                elif equip_on == "Abigail":
+                    aFilepath = "inventory/equip/unique/Abigailunique.json"
+                    self.aFilename = aFilepath
+                    with open(self.aFilename, "w") as file:
+                        json.dump([unique.to_dict()], file, indent=4)
+                elif equip_on == "Monte":
+                    mFilepath = "inventory/equip/unique/Monteunique.json"
+                    self.mFilename = mFilepath
+                    with open(self.mFilename, "w") as file:
+                        json.dump([unique.to_dict()], file, indent=4)
+                else:
+                    break
+
+
 # Example usage
 
 utype = {
@@ -145,6 +171,9 @@ all_uniques = [
 if not uManager.uniques:
     for unique in all_uniques:
         uManager.add_unique(*unique)
+
+uManager.uEquip("Compact Cell", "Abigail")
+uManager.uEquip("Brainwave Stim", "Monte")
 """
     # Unlock some uniques
 uManager.unlock_unique("Brainwave Stim")

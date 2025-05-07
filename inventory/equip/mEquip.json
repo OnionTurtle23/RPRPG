@@ -1,0 +1,38 @@
+[
+    [
+        {
+            "id": "ccbabae3-797e-42ac-b375-be70e5635a8c",
+            "wname": "Basic Pistol",
+            "wtype": "Normal",
+            "slots": 2,
+            "slot_link": 1,
+            "damage": 25,
+            "is_unique": "Monte",
+            "is_avail": true
+        }
+    ],
+    [
+        {
+            "id": "b673e783-baba-4f85-8e7f-7f5d4b72f3f9",
+            "aname": "Basic Buckler",
+            "atype": "Normal",
+            "slots": 2,
+            "slot_link": 1,
+            "physmit": 20,
+            "techmit": 20,
+            "is_avail": true
+        }
+    ],
+    [
+        {
+            "id": "8fa66977-4fc7-494b-aa7f-e85635de32aa",
+            "uname": "Brainwave Stim",
+            "utype": "Headband",
+            "boon": "Mind-Focusing",
+            "mastery": 1,
+            "mastered_boon": "ATB Increae",
+            "mboon_avail": false,
+            "is_avail": true
+        }
+    ]
+]

@@ -1,6 +1,6 @@
 [
     {
-        "id": "d42ac669-63d2-4476-9879-3fe948a0cff8",
+        "id": "3fc5e0c8-8525-4726-b4a1-3f4683144da6",
         "aname": "Wooden Shield",
         "atype": "Normal",
         "slots": 2,
@@ -10,27 +10,27 @@
         "is_avail": true
     },
     {
-        "id": "fed5f550-f707-4df7-a118-957760536d6d",
+        "id": "8733a9fb-baa0-483f-86df-b2eecf4baa89",
         "aname": "Basic Leather",
         "atype": "Normal",
         "slots": 3,
         "slot_link": 1,
         "physmit": 10,
         "techmit": 15,
-        "is_avail": false
+        "is_avail": true
     },
     {
-        "id": "00ed3d3b-80e4-4d95-9d83-e8e83c16dd60",
+        "id": "19d72490-03e0-4b73-ad77-d547268c9cd5",
         "aname": "Basic Buckler",
         "atype": "Normal",
         "slots": 2,
         "slot_link": 1,
         "physmit": 20,
         "techmit": 20,
-        "is_avail": false
+        "is_avail": true
     },
     {
-        "id": "bd36c0f8-b57b-4621-a81b-b0c3e6246dfb",
+        "id": "2adf2c05-7d5d-4603-9d8a-2fb03c8ede34",
         "aname": "Racing Suit",
         "atype": "Flame-Retardant",
         "slots": 4,
@@ -40,7 +40,7 @@
         "is_avail": false
     },
     {
-        "id": "9af2bedc-3c05-4372-906e-c07f1893004f",
+        "id": "7c50c9af-817f-40b3-9c4e-ee6b1cbc8b9a",
         "aname": "Wet Suit",
         "atype": "Water-Tight",
         "slots": 5,
@@ -50,7 +50,7 @@
         "is_avail": false
     },
     {
-        "id": "3550fb43-d736-42ce-8686-37051a80dd92",
+        "id": "8d4554e0-0350-4416-95fd-df772c606f6f",
         "aname": "Rubber Suit",
         "atype": "Grounded",
         "slots": 3,
@@ -60,7 +60,7 @@
         "is_avail": false
     },
     {
-        "id": "ea762f8b-4d9b-4971-8523-0d92ccc7640d",
+        "id": "783a2efc-b47e-4b94-8c55-466b86c08150",
         "aname": "Snow Suit",
         "atype": "Fur-Lined",
         "slots": 6,
@@ -70,7 +70,7 @@
         "is_avail": false
     },
     {
-        "id": "c5018bb5-5b2e-4f56-854f-20b8dbac054b",
+        "id": "3d9500b1-e91f-4b3a-b16c-1e5cdbd93ce9",
         "aname": "Wind-Breaker",
         "atype": "Wind Resistive",
         "slots": 7,
@@ -80,7 +80,7 @@
         "is_avail": false
     },
     {
-        "id": "b745db0b-a058-4b8a-aa64-67ddc2e63734",
+        "id": "7c9cb590-9575-4f5f-948f-7ba5562d4018",
         "aname": "Divine Breastplate",
         "atype": "Ancient",
         "slots": 8,
@@ -90,7 +90,7 @@
         "is_avail": false
     },
     {
-        "id": "2071e389-ca20-41ce-8a98-8e12ef2d4369",
+        "id": "4e507f64-14a2-40d6-9580-a67f3b7a5538",
         "aname": "Overcomer's Diadem",
         "atype": "Ancient",
         "slots": 8,
@@ -100,7 +100,7 @@
         "is_avail": false
     },
     {
-        "id": "c2229835-1fa5-4541-b999-f1585e88f3bf",
+        "id": "60ef89e2-395f-4ff5-9270-f46d92b3ac3d",
         "aname": "Shield of Hope",
         "atype": "Ancient",
         "slots": 8,

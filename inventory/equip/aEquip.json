@@ -1,0 +1,38 @@
+[
+    [
+        {
+            "id": "2c22bd86-4423-4c34-bf88-3e5e3ed04b93",
+            "wname": "Basic Staff",
+            "wtype": "Normal",
+            "slots": 4,
+            "slot_link": 2,
+            "damage": 10,
+            "is_unique": "Abigail",
+            "is_avail": true
+        }
+    ],
+    [
+        {
+            "id": "926d3b9f-e7a9-4855-b22b-445f85f76b77",
+            "aname": "Basic Leather",
+            "atype": "Normal",
+            "slots": 3,
+            "slot_link": 1,
+            "physmit": 10,
+            "techmit": 15,
+            "is_avail": true
+        }
+    ],
+    [
+        {
+            "id": "7e063daf-63ac-4621-a733-40513f3b622c",
+            "uname": "Compact Cell",
+            "utype": "Superconductor",
+            "boon": "Energy Producing",
+            "mastery": 1,
+            "mastered_boon": "Techs Iterate Twice",
+            "mboon_avail": false,
+            "is_avail": true
+        }
+    ]
+]

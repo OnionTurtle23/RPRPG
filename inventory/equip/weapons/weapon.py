@@ -115,14 +115,26 @@ class WeaponManager:
             return [weapon for weapon in self.weapons if hasattr(weapon, key) and getattr(weapon, key) == value and weapon.is_avail]
 
     def wEquip(self, weapon_name):
-        ePath = Path(__file__).parent.parent
-        eFilepath = str(ePath) + "/equiplist.json"
-        self.eFilename = eFilepath
         for weapon in self.inventory:
             if weapon.wname.lower() == weapon_name.lower():
                 print(f"Equipped {weapon.wname}")
-                with open(self.eFilename, "w") as file:
-                    json.dump([weapon.to_dict()], file, indent=4)
+                if weapon.is_unique == "Kris":
+                    kFilepath = "inventory/equip/weapons/Krisweapon.json"
+                    self.kFilename = kFilepath
+                    with open(self.kFilename, "w") as file:
+                        json.dump([weapon.to_dict()], file, indent=4)
+                elif weapon.is_unique == "Abigail":
+                    aFilepath = "inventory/equip/weapons/Abigailweapon.json"
+                    self.aFilename = aFilepath
+                    with open(self.aFilename, "w") as file:
+                        json.dump([weapon.to_dict()], file, indent=4)
+                elif weapon.is_unique == "Monte":
+                    mFilepath = "inventory/equip/weapons/Monteweapon.json"
+                    self.mFilename = mFilepath
+                    with open(self.mFilename, "w") as file:
+                        json.dump([weapon.to_dict()], file, indent=4)
+                else:
+                    break
 
 # Example usage
 
@@ -160,6 +172,8 @@ all_weapons = [
 if not wManager.weapons:
     for weapon in all_weapons:
         wManager.add_weapon(*weapon)
+
+#wManager.wEquip("Basic Pistol")
 """
     # Unlock some weapons
 wManager.unlock_weapon("Basic Sword")

@@ -1,0 +1,12 @@
+[
+    {
+        "id": "ecfc2f0a-9ebd-44ff-96a5-03f3c4adaa09",
+        "aname": "Basic Buckler",
+        "atype": "Normal",
+        "slots": 2,
+        "slot_link": 1,
+        "physmit": 20,
+        "techmit": 20,
+        "is_avail": true
+    }
+]

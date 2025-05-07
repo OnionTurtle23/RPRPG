@@ -1,6 +1,7 @@
 import json
 import os
 from uuid import uuid4
+from pathlib import Path
 
 class Armor:
     def __init__(self, aname, atype, slots, slot_link, physmit, techmit, is_avail=False):
@@ -114,6 +115,28 @@ class ArmorManager:
             return [armor for armor in self.armor if hasattr(armor, key) and getattr(armor, key) == value and armor.is_avail]
 
 
+    def aEquip(self, armor_name, equip_on):
+        for armor in self.inventory:
+            if armor.aname.lower() == armor_name.lower():
+                print(f"Equipped {armor.aname}")
+                if equip_on == "Kris":
+                    kFilepath = "inventory/equip/armor/Krisarmor.json"
+                    self.kFilename = kFilepath
+                    with open(self.kFilename, "w") as file:
+                        json.dump([armor.to_dict()], file, indent=4)
+                elif equip_on == "Abigail":
+                    aFilepath = "inventory/equip/armor/Abigailarmor.json"
+                    self.aFilename = aFilepath
+                    with open(self.aFilename, "w") as file:
+                        json.dump([armor.to_dict()], file, indent=4)
+                elif equip_on == "Monte":
+                    mFilepath = "inventory/equip/armor/Montearmor.json"
+                    self.mFilename = mFilepath
+                    with open(self.mFilename, "w") as file:
+                        json.dump([armor.to_dict()], file, indent=4)
+                else:
+                    break
+
 atype = {
     "Normal": "None",
     "Flame-Retardant": "Fire",
@@ -146,7 +169,11 @@ all_armors = [
 if not aManager.armor:
     for armor in all_armors:
         aManager.add_armor(*armor)
+
 """
+aManager.aEquip("Basic Buckler", "Monte")
+aManager.aEquip("Basic Leather", "Abigail")
+
     # Unlock some armors
 aManager.unlock_armor("Wooden Shield")
 

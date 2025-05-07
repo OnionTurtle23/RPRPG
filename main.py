@@ -1,6 +1,7 @@
 import pygame
 import json
 import random
+from pathlib import path
 
 
 class PlayableCharacter:
@@ -27,8 +28,17 @@ kris = PlayableCharacter("Kris", kSprite, 100, 20, 10, 8, 9, 7, 8, 8, 8)
 
 class Equipment(Weapon, Armor, Unique):
 
-    def __init__(self):
-        pass
+    path = Path("inventory/equip")
+
+    def __init__(self, weapon, armor, unique, squire):
+        self.weapon = weapon
+        self.armor = armor
+        self.unique = unique
+        self.squire = squire
+
+    def kEquip(self):
+        
+
 
 
 class Enemy:
@@ -78,10 +88,6 @@ def randEnc():
 
 
 
-randEnc()
-randEnc()
-randEnc()
-randEnc()
 randEnc()
 
 

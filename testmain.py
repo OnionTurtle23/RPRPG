@@ -69,10 +69,20 @@ wmodPath = Path("inventory/equip/weapons/weapon.py").expanduser()
 
 weaponmodule = wImport(wmodPath)
 
-weaponmodule.wManager.wEquip("Basic Sword")
+uniquemodule.uManager.uEquip("Robotic Suit", "Kris")
+
 
 """
 Testing Functions, etc.
+armormodule.aManager.unlock_armor("Basic Buckler")
+armormodule.aManager.aEquip("Wooden Shield", "Kris")
+armormodule.aManager.aEquip("Basic Buckler", "Monte")
+
+weaponmodule.wManager.unlock_weapon("Basic Staff")
+weaponmodule.wManager.wEquip("Basic Sword")
+weaponmodule.wManager.wEquip("Basic Staff")
+weaponmodule.wManager.wEquip("Basic Pistol")
+
 
 weaponmodule.wManager.unlock_weapon("Basic Sword")
 weaponmodule.wManager.display_inventory()
