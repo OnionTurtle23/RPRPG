@@ -1,0 +1,39 @@
+[
+    {
+        "id": "8940bd6e-4c9b-4a45-a2fa-2753667ad683",
+        "ename": "Goblin",
+        "hp": 50,
+        "eng": 10,
+        "atk": 5,
+        "tech": "None",
+        "resist": "Normal",
+        "weak": "Discharging",
+        "is_alive": true,
+        "type": "Enemy"
+    },
+    {
+        "id": "4992fbb5-2b60-40c4-9c4f-d0e0ce7dd380",
+        "ename": "Goblin Chief",
+        "hp": 80,
+        "eng": 20,
+        "atk": 10,
+        "tech": "Fire",
+        "tech2": "Heal",
+        "resist": "Superheated",
+        "weak": "Discharging",
+        "is_alive": true,
+        "type": "Enemy_chief"
+    },
+    {
+        "id": "f30a5f72-ebf9-49fb-8e3b-7524b674a410",
+        "ename": "Heavy Goblin",
+        "hp": 100,
+        "eng": 30,
+        "atk": 25,
+        "tech": "Missile",
+        "resist": "Normal",
+        "weak": "Discharging",
+        "is_alive": true,
+        "type": "Enemy"
+    }
+]

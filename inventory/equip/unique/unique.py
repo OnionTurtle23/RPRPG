@@ -172,8 +172,6 @@ if not uManager.uniques:
     for unique in all_uniques:
         uManager.add_unique(*unique)
 
-uManager.uEquip("Compact Cell", "Abigail")
-uManager.uEquip("Brainwave Stim", "Monte")
 """
     # Unlock some uniques
 uManager.unlock_unique("Brainwave Stim")

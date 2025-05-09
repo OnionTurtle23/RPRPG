@@ -1,0 +1,28 @@
+[
+    {
+        "id": "73662490-c81b-4a5d-aef3-0f35b6343650",
+        "ename": "Cave Spider",
+        "hp": 60,
+        "eng": 10,
+        "atk": 5,
+        "atk2": 15,
+        "tech": "Poison Bite",
+        "resist": "Poison",
+        "weak": "Superheated",
+        "is_alive": true,
+        "type": "Beast"
+    },
+    {
+        "id": "d19bb6b2-6bbd-4526-9a11-5d029f0b3838",
+        "ename": "Fang Mole",
+        "hp": 80,
+        "eng": 10,
+        "atk": 10,
+        "atk2": 20,
+        "tech": "Fang",
+        "resist": "Normal",
+        "weak": "Superheated",
+        "is_alive": true,
+        "type": "Beast"
+    }
+]

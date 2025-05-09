@@ -1,0 +1,80 @@
+[
+    {
+        "id": "5df8add9-3e4b-40c9-b713-218ba7ef8e27",
+        "ename": "Cave Spider",
+        "hp": 60,
+        "eng": 10,
+        "atk": 5,
+        "atk2": 15,
+        "tech": "Poison Bite",
+        "resist": "Poison",
+        "weak": "Superheated",
+        "is_alive": true,
+        "type": "Beast"
+    },
+    {
+        "id": "5df8add9-3e4b-40c9-b713-218ba7ef8e27",
+        "ename": "Cave Spider",
+        "hp": 60,
+        "eng": 10,
+        "atk": 5,
+        "atk2": 15,
+        "tech": "Poison Bite",
+        "resist": "Poison",
+        "weak": "Superheated",
+        "is_alive": true,
+        "type": "Beast"
+    },
+    {
+        "id": "5df8add9-3e4b-40c9-b713-218ba7ef8e27",
+        "ename": "Cave Spider",
+        "hp": 60,
+        "eng": 10,
+        "atk": 5,
+        "atk2": 15,
+        "tech": "Poison Bite",
+        "resist": "Poison",
+        "weak": "Superheated",
+        "is_alive": true,
+        "type": "Beast"
+    },
+    {
+        "id": "c0675f5c-0ab0-4860-aca3-c812ad478459",
+        "ename": "Cave Spider",
+        "hp": 60,
+        "eng": 10,
+        "atk": 5,
+        "atk2": 15,
+        "tech": "Poison Bite",
+        "resist": "Poison",
+        "weak": "Superheated",
+        "is_alive": true,
+        "type": "Beast"
+    },
+    {
+        "id": "c0675f5c-0ab0-4860-aca3-c812ad478459",
+        "ename": "Cave Spider",
+        "hp": 60,
+        "eng": 10,
+        "atk": 5,
+        "atk2": 15,
+        "tech": "Poison Bite",
+        "resist": "Poison",
+        "weak": "Superheated",
+        "is_alive": true,
+        "type": "Beast"
+    },
+    {
+        "id": "c0675f5c-0ab0-4860-aca3-c812ad478459",
+        "ename": "Cave Spider",
+        "hp": 60,
+        "eng": 10,
+        "atk": 5,
+        "atk2": 15,
+        "tech": "Poison Bite",
+        "resist": "Poison",
+        "weak": "Superheated",
+        "is_alive": true,
+        "type": "Beast"
+    }
+]
