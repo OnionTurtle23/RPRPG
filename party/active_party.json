@@ -1,5 +1,19 @@
 [
     {
+        "name": "Kris",
+        "lvl": 2,
+        "exp": 300,
+        "hp": 304,
+        "eng": 90,
+        "stg": 28,
+        "ig": 23,
+        "con": 33,
+        "wis": 23,
+        "pdef": 28,
+        "tbar": 28,
+        "agi": 23
+    },
+    {
         "name": "Abigail",
         "lvl": 2,
         "exp": 300,
