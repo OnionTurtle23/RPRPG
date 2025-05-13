@@ -1,7 +1,7 @@
 [
     [
         {
-            "id": "5cf0be05-b585-4d1c-92ae-8b3b4833475d",
+            "id": "d370787e-63dc-4994-adb4-f565e77f990b",
             "wname": "Basic Pistol",
             "wtype": "Normal",
             "slots": 2,
@@ -13,7 +13,7 @@
     ],
     [
         {
-            "id": "c6289089-e43c-49cd-9526-4eb97434ac99",
+            "id": "24ab9570-0097-42b9-a8a1-f994982170dc",
             "aname": "Basic Buckler",
             "atype": "Normal",
             "slots": 2,
@@ -25,7 +25,7 @@
     ],
     [
         {
-            "id": "994a3041-5bf0-4147-bd96-953ba49eeb7c",
+            "id": "7008d2b1-ee7c-4945-972d-f2f01cf11750",
             "uname": "Brainwave Stim",
             "utype": "Headband",
             "boon": "Mind-Focusing",

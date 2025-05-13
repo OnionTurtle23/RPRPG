@@ -1,5 +1,6 @@
 import math
 from math import floor
+import techs.tech as tmobile
 
 """two ways to calc xp req modifier"""
 """
@@ -12,12 +13,11 @@ print(xp21)
 xp22 = (((y+75) * (22**2))//10)
 print(xp22)
 print(xp21 + xp22)
-"""
-"""test stat mod calc"""
-"""
+
+
 z = (9 - 10) // 2
 print(z)
-"""
+
 def test():
     x_modifier = 68
     current_lvl = 1
@@ -55,3 +55,5 @@ def ck():
         print (f"lvl {i}: {n}")
 
 ck()
+"""
+

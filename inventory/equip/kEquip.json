@@ -2,7 +2,7 @@
     [
         [
             {
-                "id": "c9db55f9-a80a-44a2-b1a4-b127d9ded7ba",
+                "id": "7af23fe7-fcf9-4c6c-92ab-50a31fb08b00",
                 "wname": "Fiery Scimitar",
                 "wtype": "Superheated",
                 "slots": 4,
@@ -14,7 +14,7 @@
         ],
         [
             {
-                "id": "504d84ec-52e5-4ea3-b816-6074208f09c9",
+                "id": "ddfcaf89-1de5-4f94-9742-fb9ccfab327d",
                 "aname": "Basic Buckler",
                 "atype": "Normal",
                 "slots": 2,
@@ -26,7 +26,7 @@
         ],
         [
             {
-                "id": "42d4296a-e9c4-43cf-85fe-baa802d8c836",
+                "id": "30c5b3a9-90ec-43bd-b638-e159e1c8d203",
                 "uname": "Compact Cell",
                 "utype": "Superconductor",
                 "boon": "Energy Producing",

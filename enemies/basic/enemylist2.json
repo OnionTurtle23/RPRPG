@@ -1,6 +1,6 @@
 [
     {
-        "id": "7547f94a-0016-4497-900b-134e161bc728",
+        "id": "d1bf4008-348d-4f6d-a667-8b5b8651fe65",
         "ename": "Cave Spider",
         "hp": 60,
         "eng": 10,
@@ -13,7 +13,7 @@
         "type": "Beast"
     },
     {
-        "id": "839b9acc-5ced-447e-9d05-5747e84e9634",
+        "id": "66174a6f-67e6-41a3-bac6-90c6114e6843",
         "ename": "Fang Mole",
         "hp": 80,
         "eng": 10,

@@ -3,6 +3,7 @@ import inventory.equip.armor.armor as armormodule
 import inventory.equip.unique.unique as uniquemodule
 import inventory.equip.equip as equipmodule
 import party.char as charmodule
+import techs.tech as tmobile
 from inventory.equip.weapons.weapon import Weapon
 from inventory.equip.armor.armor import Armor
 from inventory.equip.unique.unique import Unique
@@ -20,19 +21,41 @@ screen = pygame.display.set_mode((0, 0), pygame.FULLSCREEN)
 pygame.display.set_caption("RPRPG")
 clock = pygame.time.Clock()
 joysticks = {}
-display_width, display_height = screen.get_size()
+
+
+def add_outline_to_image(image: pygame.Surface, thickness: int, color: tuple, color_key: tuple = (255, 0, 255)) -> pygame.Surface:
+    mask = pygame.mask.from_surface(image)
+    mask_surf = mask.to_surface(setcolor=color)
+    mask_surf.set_colorkey((0, 0, 0))
+
+    new_img = pygame.Surface((image.get_width() + 2, image.get_height() + 2))
+    new_img.fill(color_key)
+    new_img.set_colorkey(color_key)
+
+    for i in -thickness, thickness:
+        new_img.blit(mask_surf, (i + thickness, thickness))
+        new_img.blit(mask_surf, (thickness, i + thickness))
+    new_img.blit(image, (thickness, thickness))
+
+    return new_img
+"""
+text_surf = myfont.render("test", False, (255, 255, 255)).convert()
+text_with_outline = add_outline_to_image(text_surf, 2, (0, 0, 0))
+"""
+
+screen_x, screen_y = screen.get_size()
 scale_factor = 0.95
-surface_width = int(display_width * scale_factor)
-surface_height = int(display_height * scale_factor)
+surface_width = int(screen_x * scale_factor)
+surface_height = int(screen_y * scale_factor)
 
 
 surface = pygame.Surface((surface_width, surface_height))
 surface.fill("Silver")
 
-surface_x = (display_width - surface_width) // 2
-surface_y = (display_height - surface_height) // 2
+surface_x = (screen_x - surface_width) // 2
+surface_y = (screen_y - surface_height) // 2
 
-title_font = pygame.font.Font("fonts/D3 Digitalism Italic.ttf", size = int(280*display_height/display_width))
+title_font = pygame.font.Font("fonts/D3 Digitalism Italic.ttf", size = int(280*screen_y/screen_x))
 title = title_font.render("R.P.R.P.G.", True, (0,255,0))
 title_bg_img = pygame.image.load("images/title_bg.png")
 title_w = floor(surface_width * .98)
@@ -40,8 +63,18 @@ title_h = floor(surface_height * .98)
 title_bg_img = pygame.transform.scale(title_bg_img, (title_w, title_h))
 title_x = floor(surface_x*1.4)
 title_y = floor(surface_y*1.4)
-title_text_x = floor((display_width/4.5))
-title_text_y = floor((display_height/3.5))
+title_text_x = floor((screen_x/4.5))
+title_text_y = floor((screen_y/3.5))
+
+press_x_font = pygame.font.Font("fonts/big_dots.ttf", size = int(160*screen_y/screen_x))
+press_x_raw = press_x_font.render("Press    to start", False, (255,255,255)).convert()
+press_x = add_outline_to_image(press_x_raw, 2, (0, 0, 0))
+x_pressx = floor(screen_x*.27)
+y_pressx = floor(screen_y*.81)
+x_img = pygame.image.load("images/ps_x.png").convert()
+x_img = pygame.transform.scale(x_img, (140,140)).convert_alpha()
+x_ximg = floor(screen_x*.44)
+y_ximg = floor(screen_y*.79)
 
 while True:
 
@@ -50,9 +83,12 @@ while True:
             pygame.quit()
             sys.exit()
 
+
         screen.blit(surface,(surface_x,surface_y))
         screen.blit(title_bg_img, (title_x,title_y))
         screen.blit(title, (title_text_x, title_text_y))
+        screen.blit(press_x, (x_pressx,y_pressx))
+        screen.blit(x_img, (x_ximg, y_ximg))
         pygame.display.update()
         clock.tick(60)
 
@@ -79,54 +115,41 @@ while True:
     for joystick in joysticks.values():
         jid = joystick.get_instance_id()
 
-        text_print.tprint(screen, f"Joystick {jid}")
-        text_print.indent()
-
-            # Get the name from the OS for the controller/joystick.
+        print(f"Joystick {jid}")
         name = joystick.get_name()
-        text_print.tprint(screen, f"Joystick name: {name}")
+        print(f"Joystick name: {name}")
 
         guid = joystick.get_guid()
-        text_print.tprint(screen, f"GUID: {guid}")
+        print(f"GUID: {guid}")
 
         power_level = joystick.get_power_level()
-        text_print.tprint(screen, f"Joystick's power level: {power_level}")
+        print(f"Joystick's power level: {power_level}")
 
-            # Usually axis run in pairs, up/down for one, and left/right for
-            # the other. Triggers count as axes.
         axes = joystick.get_numaxes()
-        text_print.tprint(screen, f"Number of axes: {axes}")
-        text_print.indent()
+        print(f"Number of axes: {axes}")
 
         for i in range(axes):
             axis = joystick.get_axis(i)
-            text_print.tprint(screen, f"Axis {i} value: {axis:>6.3f}")
-        text_print.unindent()
+            print(f"Axis {i} value: {axis:>6.3f}")
 
         buttons = joystick.get_numbuttons()
-        text_print.tprint(screen, f"Number of buttons: {buttons}")
-        text_print.indent()
+        print(f"Number of buttons: {buttons}")
 
         for i in range(buttons):
             button = joystick.get_button(i)
-            text_print.tprint(screen, f"Button {i:>2} value: {button}")
-        text_print.unindent()
+            print(f"Button {i:>2} value: {button}")
 
         hats = joystick.get_numhats()
-        text_print.tprint(screen, f"Number of hats: {hats}")
-        text_print.indent()
+        print(f"Number of hats: {hats}")
 
-            # Hat position. All or nothing for direction, not a float like
-            # get_axis(). Position is a tuple of int values (x, y).
         for i in range(hats):
             hat = joystick.get_hat(i)
-            text_print.tprint(screen, f"Hat {i} value: {str(hat)}")
-        text_print.unindent()
-
-        text_print.unindent()
-
-        # Go ahead and update the screen with what we've drawn.
+            print(f"Hat {i} value: {str(hat)}")
     pygame.display.flip()
+
+    if joystick.get_button(0):
+        pygame.quit()
+        sys.exit()
 
 
 
@@ -143,7 +166,7 @@ weaponmodule.wManager.wEquip("Fiery Scimitar")
 uniquemodule.uManager.uEquip("Compact Cell", "Kris")
 equipmodule.eManager.kEquip()
 
-#armormodule.aManager.aEquip("Basi Leather", "Abigail")
+#armormodule.aManager.aEquip("Basic Leather", "Abigail")
 
 
 charmodule.cManager.load_chars()
