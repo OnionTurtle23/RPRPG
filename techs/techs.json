@@ -1,0 +1,208 @@
+[
+    {
+        "name": "Flame-Thrower",
+        "tpwr": {},
+        "txp": 0,
+        "tlv": 1,
+        "txpcap": 5000,
+        "tmstr": false,
+        "tpaired": {
+            "false": "None",
+            "true": null
+        },
+        "tavail": false,
+        "ttype": "Bane"
+    }
+][
+    {
+        "name": "Water Condenser",
+        "tpwr": {},
+        "txp": 0,
+        "tlv": 1,
+        "txpcap": 5000,
+        "tmstr": false,
+        "tpaired": {
+            "false": "None",
+            "true": null
+        },
+        "tavail": false,
+        "ttype": "Bane"
+    }
+][
+    {
+        "name": "Hi-Volt Discharger",
+        "tpwr": {},
+        "txp": 0,
+        "tlv": 1,
+        "txpcap": 5000,
+        "tmstr": false,
+        "tpaired": {
+            "false": "None",
+            "true": null
+        },
+        "tavail": false,
+        "ttype": "Bane"
+    }
+][
+    {
+        "name": "Freon Former",
+        "tpwr": {},
+        "txp": 0,
+        "tlv": 1,
+        "txpcap": 5000,
+        "tmstr": false,
+        "tpaired": {
+            "false": "None",
+            "true": null
+        },
+        "tavail": false,
+        "ttype": "Bane"
+    }
+][
+    {
+        "name": "Jet Turbine",
+        "tpwr": {},
+        "txp": 0,
+        "tlv": 1,
+        "txpcap": 6000,
+        "tmstr": false,
+        "tpaired": {
+            "false": "None",
+            "true": null
+        },
+        "tavail": false,
+        "ttype": "Bane"
+    }
+][
+    {
+        "name": "Seismic Disruptor",
+        "tpwr": {},
+        "txp": 0,
+        "tlv": 1,
+        "txpcap": 6000,
+        "tmstr": false,
+        "tpaired": {
+            "false": "None",
+            "true": null
+        },
+        "tavail": false,
+        "ttype": "Bane"
+    }
+][
+    {
+        "name": "Light of the Ages",
+        "tpwr": {},
+        "txp": 0,
+        "tlv": 1,
+        "txpcap": 7000,
+        "tmstr": false,
+        "tpaired": {
+            "false": "None",
+            "true": null
+        },
+        "tavail": false,
+        "ttype": "Bane"
+    }
+][
+    {
+        "name": "Restore",
+        "tpwr": {},
+        "txp": 0,
+        "tlv": 1,
+        "txpcap": 5000,
+        "tmstr": false,
+        "tpaired": {
+            "false": "None",
+            "true": null
+        },
+        "tavail": false,
+        "ttype": "Boon"
+    }
+][
+    {
+        "name": "Regenerate",
+        "tpwr": {},
+        "txp": 0,
+        "tlv": 1,
+        "txpcap": 7000,
+        "tmstr": false,
+        "tpaired": {
+            "false": "None",
+            "true": null
+        },
+        "tavail": false,
+        "ttype": "Boon"
+    }
+][
+    {
+        "name": "Cure Ailment",
+        "tpwr": {},
+        "txp": 0,
+        "tlv": 1,
+        "txpcap": 6000,
+        "tmstr": false,
+        "tpaired": {
+            "false": "None",
+            "true": null
+        },
+        "tavail": false,
+        "ttype": "Boon"
+    }
+][
+    {
+        "name": "Overclock",
+        "tpwr": {},
+        "txp": 0,
+        "tlv": 1,
+        "txpcap": 7000,
+        "tmstr": false,
+        "tpaired": {
+            "false": "None",
+            "true": null
+        },
+        "tavail": false,
+        "ttype": "Boon"
+    }
+][
+    {
+        "name": "Cover Allies",
+        "tpwr": {},
+        "txp": 0,
+        "tlv": 1,
+        "txpcap": 5000,
+        "tmstr": false,
+        "tpaired": {},
+        "tavail": false,
+        "ttype": "Auto"
+    }
+][
+    {
+        "name": "Automate",
+        "tpwr": {},
+        "txp": 0,
+        "tlv": 1,
+        "txpcap": 5000,
+        "tmstr": false,
+        "tpaired": {
+            "false": "None",
+            "true": null
+        },
+        "tavail": false,
+        "ttype": "Auto"
+    }
+][
+    {
+        "name": "Link",
+        "tpwr": {},
+        "txp": 0,
+        "tlv": 1,
+        "txpcap": 5000,
+        "tmstr": false,
+        "tpaired": {
+            "false": "None",
+            "true": null
+        },
+        "tavail": false,
+        "ttype": "Auto"
+    }
+]
