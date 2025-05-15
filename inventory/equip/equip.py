@@ -77,7 +77,7 @@ class EquipmentManager:
 
     def save_kris(self, filename = "inventory/equip/kEquip.json"):
         with open(self.filename, 'w') as file:
-            json.dump([self.kequip], file, indent=4)
+            json.dump(self.kequip, file, indent=4)
 
     def load_abigail(self, aw = "inventory/equip/weapons/Abigailweapon.json", aa = "inventory/equip/armor/Abigailarmor.json", au = "inventory/equip/unique/Abigailunique.json", ae = "inventory/equip/aEquip.json"):
         """Load weapons from JSON file."""

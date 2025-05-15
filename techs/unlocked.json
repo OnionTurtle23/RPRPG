@@ -1,0 +1,62 @@
+[
+    {
+        "tname": "Flame-Thrower",
+        "tpwr": {
+            "p1": "Throw Flames: ",
+            "p1t": [
+                40,
+                10
+            ],
+            "p2": "Throw Flamier: ",
+            "p2t": [
+                80,
+                14
+            ],
+            "p3": "Throw Flamiest: ",
+            "p3t": [
+                120,
+                18
+            ]
+        },
+        "txp": 0,
+        "tlv": 1,
+        "txpcap": 5000,
+        "tmstr": false,
+        "tpaired": {
+            "false": "None",
+            "true": null
+        },
+        "tavail": true,
+        "ttype": "Bane"
+    },
+    {
+        "tname": "Water Condenser",
+        "tpwr": {
+            "p1": "Make It Rain: ",
+            "p1t": [
+                40,
+                10
+            ],
+            "p2": "Make It Rainier: ",
+            "p2t": [
+                80,
+                14
+            ],
+            "p3": "Make it Rainiest: ",
+            "p3t": [
+                120,
+                18
+            ]
+        },
+        "txp": 0,
+        "tlv": 1,
+        "txpcap": 5000,
+        "tmstr": false,
+        "tpaired": {
+            "false": "None",
+            "true": null
+        },
+        "tavail": true,
+        "ttype": "Bane"
+    }
+]

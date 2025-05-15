@@ -2,6 +2,7 @@ import math
 from math import floor
 import techs.tech as tmobile
 
+
 """two ways to calc xp req modifier"""
 """
 x = floor(19 / 10)

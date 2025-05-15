@@ -1,40 +1,38 @@
 [
     [
-        [
-            {
-                "id": "7af23fe7-fcf9-4c6c-92ab-50a31fb08b00",
-                "wname": "Fiery Scimitar",
-                "wtype": "Superheated",
-                "slots": 4,
-                "slot_link": 2,
-                "damage": 35,
-                "is_unique": "Kris",
-                "is_avail": true
-            }
-        ],
-        [
-            {
-                "id": "ddfcaf89-1de5-4f94-9742-fb9ccfab327d",
-                "aname": "Basic Buckler",
-                "atype": "Normal",
-                "slots": 2,
-                "slot_link": 1,
-                "physmit": 20,
-                "techmit": 20,
-                "is_avail": true
-            }
-        ],
-        [
-            {
-                "id": "30c5b3a9-90ec-43bd-b638-e159e1c8d203",
-                "uname": "Compact Cell",
-                "utype": "Superconductor",
-                "boon": "Energy Producing",
-                "mastery": 1,
-                "mastered_boon": "Techs Iterate Twice",
-                "mboon_avail": false,
-                "is_avail": true
-            }
-        ]
+        {
+            "id": "5e632408-686f-4035-b568-eafd9869f28e",
+            "wname": "Fiery Scimitar",
+            "wtype": "Superheated",
+            "slots": 4,
+            "slot_link": 2,
+            "damage": 35,
+            "is_unique": "Kris",
+            "is_avail": true
+        }
+    ],
+    [
+        {
+            "id": "af307622-7a39-4307-b739-dc835a74c2bd",
+            "aname": "Basic Buckler",
+            "atype": "Normal",
+            "slots": 2,
+            "slot_link": 1,
+            "physmit": 20,
+            "techmit": 20,
+            "is_avail": true
+        }
+    ],
+    [
+        {
+            "id": "8d8b81f8-734f-41bf-959f-dbcc5272e551",
+            "uname": "Compact Cell",
+            "utype": "Superconductor",
+            "boon": "Energy Producing",
+            "mastery": 1,
+            "mastered_boon": "Techs Iterate Twice",
+            "mboon_avail": false,
+            "is_avail": true
+        }
     ]
 ]

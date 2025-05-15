@@ -1,7 +1,23 @@
 [
     {
-        "name": "Flame-Thrower",
-        "tpwr": {},
+        "tname": "Flame-Thrower",
+        "tpwr": {
+            "p1": "Throw Flames: ",
+            "p1t": [
+                40,
+                10
+            ],
+            "p2": "Throw Flamier: ",
+            "p2t": [
+                80,
+                14
+            ],
+            "p3": "Throw Flamiest: ",
+            "p3t": [
+                120,
+                18
+            ]
+        },
         "txp": 0,
         "tlv": 1,
         "txpcap": 5000,
@@ -12,11 +28,26 @@
         },
         "tavail": false,
         "ttype": "Bane"
-    }
-][
+    },
     {
-        "name": "Water Condenser",
-        "tpwr": {},
+        "tname": "Water Condenser",
+        "tpwr": {
+            "p1": "Make It Rain: ",
+            "p1t": [
+                40,
+                10
+            ],
+            "p2": "Make It Rainier: ",
+            "p2t": [
+                80,
+                14
+            ],
+            "p3": "Make it Rainiest: ",
+            "p3t": [
+                120,
+                18
+            ]
+        },
         "txp": 0,
         "tlv": 1,
         "txpcap": 5000,
@@ -27,11 +58,26 @@
         },
         "tavail": false,
         "ttype": "Bane"
-    }
-][
+    },
     {
-        "name": "Hi-Volt Discharger",
-        "tpwr": {},
+        "tname": "Hi-Volt Discharger",
+        "tpwr": {
+            "p1": "Lightning Strike: ",
+            "p1t": [
+                40,
+                10
+            ],
+            "p2": "Lightning Strikier: ",
+            "p2t": [
+                80,
+                14
+            ],
+            "p3": "Lightning Strikiest: ",
+            "p3t": [
+                120,
+                18
+            ]
+        },
         "txp": 0,
         "tlv": 1,
         "txpcap": 5000,
@@ -42,11 +88,26 @@
         },
         "tavail": false,
         "ttype": "Bane"
-    }
-][
+    },
     {
-        "name": "Freon Former",
-        "tpwr": {},
+        "tname": "Freon Former",
+        "tpwr": {
+            "p1": "Form Freon: ",
+            "p1t": [
+                40,
+                10
+            ],
+            "p2": "Form Freonier: ",
+            "p2t": [
+                80,
+                14
+            ],
+            "p3": "Formiest Freon: ",
+            "p3t": [
+                120,
+                18
+            ]
+        },
         "txp": 0,
         "tlv": 1,
         "txpcap": 5000,
@@ -57,11 +118,26 @@
         },
         "tavail": false,
         "ttype": "Bane"
-    }
-][
+    },
     {
-        "name": "Jet Turbine",
-        "tpwr": {},
+        "tname": "Jet Turbine",
+        "tpwr": {
+            "p1": "Wind Blast: ",
+            "p1t": [
+                50,
+                12
+            ],
+            "p2": "Windier Blast: ",
+            "p2t": [
+                100,
+                16
+            ],
+            "p3": "Windiest Blast: ",
+            "p3t": [
+                150,
+                20
+            ]
+        },
         "txp": 0,
         "tlv": 1,
         "txpcap": 6000,
@@ -72,11 +148,26 @@
         },
         "tavail": false,
         "ttype": "Bane"
-    }
-][
+    },
     {
-        "name": "Seismic Disruptor",
-        "tpwr": {},
+        "tname": "Seismic Disruptor",
+        "tpwr": {
+            "p1": "Disrupt Earth: ",
+            "p1t": [
+                50,
+                12
+            ],
+            "p2": "Disruptier Earth: ",
+            "p2t": [
+                100,
+                16
+            ],
+            "p3": "Disruptiest Earth: ",
+            "p3t": [
+                150,
+                20
+            ]
+        },
         "txp": 0,
         "tlv": 1,
         "txpcap": 6000,
@@ -87,11 +178,26 @@
         },
         "tavail": false,
         "ttype": "Bane"
-    }
-][
+    },
     {
-        "name": "Light of the Ages",
-        "tpwr": {},
+        "tname": "Light of the Ages",
+        "tpwr": {
+            "p1": "Celestial Beam: ",
+            "p1t": [
+                60,
+                14
+            ],
+            "p2": "Holy Ray: ",
+            "p2t": [
+                120,
+                18
+            ],
+            "p3": "Light of Heaven: ",
+            "p3t": [
+                180,
+                22
+            ]
+        },
         "txp": 0,
         "tlv": 1,
         "txpcap": 7000,
@@ -102,11 +208,26 @@
         },
         "tavail": false,
         "ttype": "Bane"
-    }
-][
+    },
     {
-        "name": "Restore",
-        "tpwr": {},
+        "tname": "Restore",
+        "tpwr": {
+            "p1": "Restore Health: ",
+            "p1t": [
+                40,
+                6
+            ],
+            "p2": "Restore More: ",
+            "p2t": [
+                80,
+                8
+            ],
+            "p3": "Restore Most: ",
+            "p3t": [
+                120,
+                10
+            ]
+        },
         "txp": 0,
         "tlv": 1,
         "txpcap": 5000,
@@ -117,11 +238,26 @@
         },
         "tavail": false,
         "ttype": "Boon"
-    }
-][
+    },
     {
-        "name": "Regenerate",
-        "tpwr": {},
+        "tname": "Regenerate",
+        "tpwr": {
+            "p1": "Regenerate Health: ",
+            "p1t": [
+                10,
+                10
+            ],
+            "p2": "Regenrate Health/Energy: ",
+            "p2t": [
+                20,
+                20
+            ],
+            "p3": "Regenerate Party: ",
+            "p3t": [
+                20,
+                40
+            ]
+        },
         "txp": 0,
         "tlv": 1,
         "txpcap": 7000,
@@ -132,11 +268,26 @@
         },
         "tavail": false,
         "ttype": "Boon"
-    }
-][
+    },
     {
-        "name": "Cure Ailment",
-        "tpwr": {},
+        "tname": "Cure Ailment",
+        "tpwr": {
+            "p1": "Cure Minor Ail: ",
+            "p1t": [
+                0,
+                8
+            ],
+            "p2": "Cure Major Ail: ",
+            "p2t": [
+                0,
+                12
+            ],
+            "p3": "Panacea: ",
+            "p3t": [
+                0,
+                20
+            ]
+        },
         "txp": 0,
         "tlv": 1,
         "txpcap": 6000,
@@ -147,11 +298,26 @@
         },
         "tavail": false,
         "ttype": "Boon"
-    }
-][
+    },
     {
-        "name": "Overclock",
-        "tpwr": {},
+        "tname": "Overclock",
+        "tpwr": {
+            "p1": "Speed-Up: ",
+            "p1t": [
+                1,
+                10
+            ],
+            "p2": "Speed-Up All: ",
+            "p2t": [
+                2,
+                15
+            ],
+            "p3": "Super-Speed All: ",
+            "p3t": [
+                3,
+                20
+            ]
+        },
         "txp": 0,
         "tlv": 1,
         "txpcap": 7000,
@@ -162,11 +328,12 @@
         },
         "tavail": false,
         "ttype": "Boon"
-    }
-][
+    },
     {
-        "name": "Cover Allies",
-        "tpwr": {},
+        "tname": "Cover Allies",
+        "tpwr": {
+            "status": false
+        },
         "txp": 0,
         "tlv": 1,
         "txpcap": 5000,
@@ -174,11 +341,12 @@
         "tpaired": {},
         "tavail": false,
         "ttype": "Auto"
-    }
-][
+    },
     {
-        "name": "Automate",
-        "tpwr": {},
+        "tname": "Automate",
+        "tpwr": {
+            "status": false
+        },
         "txp": 0,
         "tlv": 1,
         "txpcap": 5000,
@@ -189,11 +357,12 @@
         },
         "tavail": false,
         "ttype": "Auto"
-    }
-][
+    },
     {
-        "name": "Link",
-        "tpwr": {},
+        "tname": "Link",
+        "tpwr": {
+            "status": false
+        },
         "txp": 0,
         "tlv": 1,
         "txpcap": 5000,
