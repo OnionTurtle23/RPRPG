@@ -1,6 +1,6 @@
 [
     {
-        "id": "37f3bdaf-c003-47d7-8e1b-5c23ebef1f7a",
+        "id": "38a1dd2c-802a-44d8-a82c-e9750d25a0b8",
         "uname": "Brainwave Stim",
         "utype": "Headband",
         "boon": "Mind-Focusing",
@@ -10,7 +10,7 @@
         "is_avail": true
     },
     {
-        "id": "ed138824-a6b9-400a-9dca-d2e51848a045",
+        "id": "74d4d2b6-f29b-4dcb-a825-13d5f00fc329",
         "uname": "Compact Cell",
         "utype": "Superconductor",
         "boon": "Energy Producing",
@@ -20,7 +20,7 @@
         "is_avail": true
     },
     {
-        "id": "2bf43e02-cbd3-42f0-ae5d-4e0da1c677e1",
+        "id": "6c07e559-af08-4601-8be1-a081bd2df96d",
         "uname": "Robotic Suit",
         "utype": "Bionic",
         "boon": "Strength Enhancing",
@@ -30,7 +30,7 @@
         "is_avail": true
     },
     {
-        "id": "a09cf1f1-46b1-42fc-894f-4aaa0be6c6e9",
+        "id": "a47ae247-6bc7-4d68-beef-932300c83f61",
         "uname": "Tubeless Nanobot Pump",
         "utype": "Nanotech",
         "boon": "Health Boosting",
@@ -40,7 +40,7 @@
         "is_avail": false
     },
     {
-        "id": "d4145f66-7ea5-4145-80f2-badcb6a520bf",
+        "id": "847ba523-6f88-40ce-a091-76b1ebc2020a",
         "uname": "Holtzman Shield",
         "utype": "Shielding",
         "boon": "Defensive",
@@ -50,7 +50,7 @@
         "is_avail": false
     },
     {
-        "id": "48f29370-4073-4f72-be1a-12746f72defe",
+        "id": "da2bb7cc-56fd-41c3-bfad-9d8ad8ae9fad",
         "uname": "Military Exosuit",
         "utype": "Mind-Body Sync",
         "boon": "Speed Altering",
@@ -60,7 +60,7 @@
         "is_avail": false
     },
     {
-        "id": "d202263a-8ba7-47a1-8d9d-3569a23b0bd4",
+        "id": "24eb6561-247e-42bd-9c53-16927bc3c067",
         "uname": "Mysterious Scabbard",
         "utype": "Ancient",
         "boon": "Holy",
@@ -70,7 +70,7 @@
         "is_avail": false
     },
     {
-        "id": "bfd170b1-bbe8-4902-ab22-ade721b90ca3",
+        "id": "140c347a-bd02-418a-9c17-6109f0af81f3",
         "uname": "Mysterious Bracelet",
         "utype": "Ancient",
         "boon": "Holy",
@@ -80,7 +80,7 @@
         "is_avail": false
     },
     {
-        "id": "c218d5d6-5642-4426-a9eb-3a5ec40f8aaf",
+        "id": "1eb76261-6724-4793-9808-f8a777087e11",
         "uname": "Mysterious Gunbelt",
         "utype": "Ancient",
         "boon": "Holy",

@@ -91,7 +91,12 @@ class ArmorManager:
         for armor in self.armor:
             if armor.aname.lower() == armor_name.lower():
                 if armor.is_avail:
-                    print(f"{armor_name} is already unlocked.")
+                    with open("inventory/current.json", "r") as cfile:
+                        cdata = json.load(cfile)
+                        qty = cdata[1].get(armor.aname) + 1
+                        cdata[1].update({armor.aname: qty})
+                        with open("inventory/current.json", "w") as cfile:
+                            json.dump(cdata, cfile, indent = 2)
                 else:
                     armor.is_avail = True
                     self.inventory.append(armor)

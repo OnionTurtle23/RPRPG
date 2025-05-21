@@ -1,6 +1,6 @@
 [
     {
-        "id": "cefe30b1-e577-4f45-b42e-12c9ad462138",
+        "id": "ba94bda6-c6e4-4b31-9574-8cbfc0322f7c",
         "wname": "Basic Sword",
         "wtype": "Normal",
         "slots": 3,
@@ -10,7 +10,7 @@
         "is_avail": true
     },
     {
-        "id": "1e170f61-3901-4942-a872-17e68193d2a2",
+        "id": "a1f8d29b-03c8-4efa-addc-7910bc7b75ec",
         "wname": "Basic Staff",
         "wtype": "Normal",
         "slots": 4,
@@ -20,7 +20,7 @@
         "is_avail": true
     },
     {
-        "id": "7be93c5f-a7f8-4e47-ba6d-d7d218d8bd15",
+        "id": "39ce5cbf-be9a-4b07-b5dc-714951016621",
         "wname": "Basic Pistol",
         "wtype": "Normal",
         "slots": 2,
@@ -30,7 +30,7 @@
         "is_avail": true
     },
     {
-        "id": "34a2e26c-21a6-44a3-b8e8-f981a3df911a",
+        "id": "8d078eeb-f6c2-4cc7-88fc-978f775c3688",
         "wname": "Fiery Scimitar",
         "wtype": "Superheated",
         "slots": 4,
@@ -40,7 +40,7 @@
         "is_avail": true
     },
     {
-        "id": "500be907-81aa-4700-a773-a9d4716ee070",
+        "id": "a87ea42e-4f22-47e0-b213-36bcc3b097ed",
         "wname": "Rain Stick",
         "wtype": "Precipitative",
         "slots": 5,
@@ -50,7 +50,7 @@
         "is_avail": false
     },
     {
-        "id": "feda712f-f0dd-442b-9b4d-200f21feb596",
+        "id": "874c3ef4-42c2-42f4-a675-e68cc2b140f9",
         "wname": "Electro Rifle",
         "wtype": "Discharging",
         "slots": 3,
@@ -60,7 +60,7 @@
         "is_avail": false
     },
     {
-        "id": "3e8db191-b94e-4765-ae9c-f5c5af9b7290",
+        "id": "ff44a653-7bcc-4531-a5d9-f432ae0bb07d",
         "wname": "Masamune",
         "wtype": "Frostbitten",
         "slots": 5,
@@ -70,7 +70,7 @@
         "is_avail": false
     },
     {
-        "id": "483bc330-2a01-4462-af30-f1e2edc1f6a6",
+        "id": "833d3b50-484f-4ca1-be46-5b6484d85fe5",
         "wname": "Hurricane Staff",
         "wtype": "Jet Turbined",
         "slots": 7,
@@ -80,7 +80,7 @@
         "is_avail": false
     },
     {
-        "id": "09cef009-c991-45e3-8576-66adaf81112b",
+        "id": "db0bd45e-c041-42cd-8fee-472a911c3b37",
         "wname": "Heavy Shotgun",
         "wtype": "Seismic",
         "slots": 5,
@@ -90,7 +90,7 @@
         "is_avail": false
     },
     {
-        "id": "64471d04-6ba1-414d-a496-3a01de43e409",
+        "id": "35e12281-296c-4243-900b-6bbb048d95f9",
         "wname": "Archangel Blade",
         "wtype": "Ancient",
         "slots": 8,
@@ -100,7 +100,7 @@
         "is_avail": false
     },
     {
-        "id": "c25b4dd3-6f5e-4aa8-9641-b6ffe6bc5a7d",
+        "id": "00e49483-4fe4-4309-a1ef-597af4053da4",
         "wname": "Staff of the Prophets",
         "wtype": "Ancient",
         "slots": 8,
@@ -110,7 +110,7 @@
         "is_avail": false
     },
     {
-        "id": "c10c90de-ffbe-4f87-b92b-76f7cec3882d",
+        "id": "b097363f-b269-41dc-b604-c3094ec2a31f",
         "wname": "Judgement Day",
         "wtype": "Ancient",
         "slots": 8,

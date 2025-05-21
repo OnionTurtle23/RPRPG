@@ -76,6 +76,7 @@ class UniqueManager:
         with open(self.filename, 'w') as file:
             json.dump([unique.to_dict() for unique in self.uniques], file, indent=4)
 
+
     def add_unique(self, uname, utype, boon, mastery, mastered_boon, mboon_avail=False, is_avail=False):
         """Add a new unique and save to file."""
         unique = Unique(uname, utype, boon, mastery, mastered_boon, mboon_avail, is_avail)
@@ -91,7 +92,12 @@ class UniqueManager:
         for unique in self.uniques:
             if unique.uname.lower() == unique_name.lower():
                 if unique.is_avail:
-                    print(f"{unique_name} is already unlocked.")
+                    with open("inventory/current.json", "r") as cfile:
+                        cdata = json.load(cfile)
+                        qty = cdata[2].get(unique.uname) + 1
+                        cdata[2].update({unique.uname: qty})
+                        with open("inventory/current.json", "w") as cfile:
+                            json.dump(cdata, cfile, indent = 2)
                 else:
                     unique.is_avail = True
                     self.inventory.append(unique)

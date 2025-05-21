@@ -1,7 +1,7 @@
 [
     [
         {
-            "id": "fab40140-7a8b-490f-a910-b54a4aa33f0c",
+            "id": "b6bf8604-c248-4578-9e74-edb718fdea4c",
             "wname": "Basic Staff",
             "wtype": "Normal",
             "slots": 4,
@@ -13,7 +13,7 @@
     ],
     [
         {
-            "id": "563eec31-c1bd-43c5-a586-6b1986636530",
+            "id": "dfe5bc24-b27f-4e83-9328-37f121f9d9fb",
             "aname": "Basic Leather",
             "atype": "Normal",
             "slots": 3,
@@ -25,7 +25,7 @@
     ],
     [
         {
-            "id": "48fc9860-d77b-4d7d-819c-f1373743c136",
+            "id": "5fb0823e-8e54-47f3-96f9-195ce8e0333b",
             "uname": "Compact Cell",
             "utype": "Superconductor",
             "boon": "Energy Producing",

@@ -1,8 +1,37 @@
 import math
 from math import floor
-import techs.tech as tmobile
+"""
+import inventory.equip.weapons.weapon as weaponmodule
+import inventory.equip.unique.unique as uniquemodule
+import inventory.equip.armor.armor as armormodule
+"""
+import techs.tech as techmodule
+
+#import inventory.items.item as itemmodule
+"""
+techmodule.tManager.get_slots()
+techmodule.tManager.equip_techs("Kris", "w", "Flame-Thrower", "y")
+techmodule.tManager.equip_techs("Water Condenser", 2)
+techmodule.tManager.equip_techs("Link", 1)
+
+uniquemodule.uManager.unlock_unique("Brainwave Stim")
+techmodule.tManager.make_available("Flame-Thrower")
+itemmodule.iManager.inv_update()
 
 
+armormodule.aManager.unlock_armor("Wooden Shield")
+
+weaponmodule.wManager.unlock_weapon("Basic Sword")
+itemmodule.iManager.inv_update()
+
+itemmodule.iManager.inv_update()
+
+uniquemodule.uManager.unlock_unique("Brainwave Stim")
+itemmodule.iManager.inv_update()
+
+techmodule.tManager.make_available("Flame-Thrower")
+itemmodule.iManager.inv_update()
+"""
 """two ways to calc xp req modifier"""
 """
 x = floor(19 / 10)

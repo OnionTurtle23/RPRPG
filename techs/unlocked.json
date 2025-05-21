@@ -1,18 +1,18 @@
 [
     {
-        "tname": "Flame-Thrower",
+        "tname": "Water Condenser",
         "tpwr": {
-            "p1": "Throw Flames: ",
+            "p1": "Make It Rain: ",
             "p1t": [
                 40,
                 10
             ],
-            "p2": "Throw Flamier: ",
+            "p2": "Make It Rainier: ",
             "p2t": [
                 80,
                 14
             ],
-            "p3": "Throw Flamiest: ",
+            "p3": "Make it Rainiest: ",
             "p3t": [
                 120,
                 18
